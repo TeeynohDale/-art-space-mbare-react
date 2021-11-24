@@ -1,0 +1,42 @@
+#child-museum {
+    position: relative;
+    background-color: #C9D7E7;
+    padding: 50px ;
+}
+#child-museum .playrooms{
+    margin: 90px 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+#child-museum .playrooms .play{
+    width: 30%;
+}
+#child-museum .playrooms .promise{
+    font-size: 30px;
+    white-space: pre-wrap;
+    text-align: left;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+#child-museum > div:nth-child(3){
+    position: absolute;
+    top: 32%;
+    left: 15%;
+
+}
+
+#child-museum .btn{
+    border: #1473E6 2px solid;
+    background-color: transparent;
+    font-size: 25px;
+    padding: 10px;
+    width: 20%;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+}
+#child-museum h2{
+    font-size: 60px;
+    display: flex;
+}

@@ -1,0 +1,113 @@
+#our-partners {
+    background-color: #C9D7E7;
+    padding:100px 0;
+}
+#our-partners .thead{
+    font-size: 60px;
+    margin: 70px;
+    text-align: left;
+}
+#our-partners #partners{
+    display: flex;
+    background-color: #C9D7E7;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#our-partners #partners .logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+#our-partners #partners .logos .icon-p{
+    
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 190px;
+    width: 40%;
+    margin:20px 0;
+    justify-content: center;
+}
+#our-partners #partners .logos .icon-p .overlay{
+    border-radius: 5px;
+    background-color: #000000;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+#our-partners #partners .logos .icon-p .overlay:hover{
+    opacity: 0.82;
+}
+#our-partners #partners .logos .icon-p img{
+    width: 25%;
+    padding: 10px;
+    z-index: 3;
+}
+#our-partners #partners > div.logos > div:nth-child(3) > img{
+    width: 20%;
+}
+#our-partners #partners .logos .icon-p p{
+    font-size: 25px;
+    position: relative;
+    z-index: 15;
+    color: #ffffff;
+}
+#our-partners #partners .milly{    
+    position: relative;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#our-partners #partners .milly button{
+    position: absolute;
+    border: #ffffff 2px solid;
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    bottom: 0;
+    right: 0;
+    width: 60%;
+}
+#our-partners #partners .milly img{
+    width: 100%;
+    height: auto;
+}
+.profiles {
+    margin-right: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:0 20px;
+}
+.profiles p{
+    font-size: 35px;
+    padding: 10px;
+    
+}
+.profiles button{
+    border: #1473E6 2px solid;
+    color: #000000;
+    background-color: transparent;
+    font-size: 30px;padding: 10px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}

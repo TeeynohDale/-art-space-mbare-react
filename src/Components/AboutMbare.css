@@ -1,0 +1,51 @@
+#about-mbare{
+    background-color: #D0E3FA;
+    margin: 100px 0;
+}
+#about-mbare .matapi {
+    position: relative;
+}
+#about-mbare .matapi img{
+    width: 100%;
+}
+#about-mbare .btns{
+    position: absolute;
+    border: #ffffff 2px solid;
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 30px;
+    padding: 10px;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 40px;
+    bottom: 0;
+    right: 0;
+}
+#about-mbare .inner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+#about-mbare .inner img{
+    width: 100%;
+}
+#about-mbare .inner .profiles{
+    width: 100%;
+    text-align: left;
+    align-items: flex-start;
+}
+#about-mbare .inner .profiles p{
+    margin: 10px;
+}
+#about-mbare .inner .profiles h2{
+    margin:60px 10px;
+    font-size: 60px;
+}
+#about-mbare .inner .profiles button {
+    
+    width: 40%;
+    margin: 60px 20px;
+}

@@ -1,0 +1,36 @@
+#construction{
+    background-color: #D0E3FA;
+}
+
+#construction .spaces {
+   display: flex;
+   margin: 30px;
+   padding: 10px;
+   justify-content: center;
+   align-items: center;
+}
+#construction .spaces .side{
+    margin: -1%;
+}
+ #construction .spaces .side img{
+     width: 100%;
+ }
+
+#construction .spaces .inner .top .lil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+#construction .spaces .inner .top .large{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#construction .spaces .inner .top .lyt{
+    width: 39.5%;
+}
+#construction .spaces .inner .top .bigg{
+    width: 60%;
+
+}

@@ -1,0 +1,19 @@
+#art-lovers{
+    margin: 100px 0;
+    background-color: #D0E3FA;
+}
+#art-lovers .profiles{
+    width: 100%;
+    margin: 100px 20px;
+}
+#art-lovers .profiles h2{
+    font-size: 60px;
+    margin: 60px;
+}
+
+#art-lovers .profiles p{
+    margin:30px 60px;
+}
+#art-lovers .khama{
+    width: 100%;
+}
