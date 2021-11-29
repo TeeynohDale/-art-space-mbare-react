@@ -7,13 +7,13 @@ function AboutMbare() {
         <section className="about-mbare" id="about-mbare">
             <div className="container">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-lg-6">
                         <div className="matapi">
                             <img src="./img/Group 6.png"  alt="image of matapi flats"/>
                             < button className="btns">View Matapi Flats</button>
                         </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-lg-6">
                         <div className="inner">
                             <img src="./img/Group 7.png" alt="kids seated on a truck" className="kidz"/>
                             <PartnerText

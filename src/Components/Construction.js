@@ -5,7 +5,7 @@ function Construction() {
     return (
         <section id="construction">
             <h2>The Space under construction</h2>
-            <div className="spaces container">
+            <div className="spaces ">
                 <div className="inner">
                     <div className="top">
                         <div className='lil'>

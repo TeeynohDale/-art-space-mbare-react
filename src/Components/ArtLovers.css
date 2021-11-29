@@ -17,3 +17,36 @@
 #art-lovers .khama{
     width: 100%;
 }
+@media (max-width:1024px){
+    #art-lovers{
+        margin: 100px 0;
+        background-color: #D0E3FA;
+    }
+    #art-lovers .profiles{
+        margin: 0px 20px;
+    }
+    #art-lovers .profiles h2{
+        font-size: 40px;
+        margin: 0px;
+    }
+    
+    #art-lovers .khama{
+        width: 70%;
+    }
+}
+@media (max-width:768px){
+    #art-lovers .profiles{
+        margin: 0px 20px;
+    }
+    #art-lovers .profiles p{
+        margin: 30px 0px;
+    }
+    #art-lovers .profiles h2{
+        font-size: 40px;
+        margin: 0px;
+    }
+    
+    #art-lovers .khama{
+        width: 100%;
+    }
+}

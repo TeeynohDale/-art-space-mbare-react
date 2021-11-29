@@ -96,7 +96,7 @@
     margin:0 20px;
 }
 .profiles p{
-    font-size: 35px;
+    font-size: 25px;
     padding: 10px;
     
 }
@@ -110,4 +110,129 @@
     justify-content: center;
     align-items: center;
     margin: 40px;
+}
+
+@media (max-width:1024px){
+   
+    #our-partners .thead{
+        font-size: 40px;
+        margin: 40px;
+        text-align: center;
+    }
+    #our-partners #partners .logos{
+        margin-left: 0px;
+    }
+    #our-partners #partners .logos .icon-p {
+        height: 145px;
+    }
+    #our-partners #partners .logos .icon-p p{
+        font-size: 20px;
+    }
+    #our-partners #partners .logos .icon-p img{
+        width: 50%;
+       margin: 10px;
+    }
+    #our-partners #partners > div.logos > div:nth-child(3) > img{
+        width: 35%;
+    }
+    #our-partners #partners .milly button{
+        width: 50%;
+    }
+    #our-partners #partners .milly img{
+        width: 90%;
+    }
+    .profiles {
+        margin-right: 10px;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin:0 20px;
+    }
+    .profiles p{
+        font-size: 25px;
+        padding: 10px;
+        
+    }
+    .profiles button{
+        border: #1473E6 2px solid;
+        color: #000000;
+        background-color: transparent;
+        font-size: 30px;padding: 10px;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+    }
+}
+
+@media (max-width:768px){
+    #our-partners #partners {
+        flex-direction: column;
+    }
+    
+    #our-partners #partners .logos .icon-p {
+        height: 200px;
+    }
+    #our-partners #partners .logos .icon-p p{
+        font-size: 20px;
+    }
+    #our-partners #partners .logos .icon-p img{
+        width: 50%;
+       margin: 10px;
+    }
+    #our-partners #partners > div.logos > div:nth-child(3) > img{
+        width: 35%;
+    }
+    #our-partners #partners .milly button{
+        margin: 0;
+        bottom: 10%;
+        right: 15%;
+    }
+    #our-partners #partners .milly img{
+        width: 90%;
+    }
+    .profiles {
+        width: 70%;
+        margin-top: 20px;
+    }
+    .profiles p{
+        font-size: 25px;
+        padding: 10px;
+        
+    }
+    .profiles button{
+        border: #1473E6 1px solid;
+        color: #000000;
+        background-color: transparent;
+        font-size: 30px;padding: 10px;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px;
+    }
+}
+
+@media (max-width:414px){
+    #our-partners .thead {
+        margin: 20px;
+    }
+    #our-partners #partners .logos .icon-p p{
+        font-size: 15px;
+    }
+    #our-partners #partners .logos .icon-p {
+        height: 160px;
+    }
+    .profiles button{
+        font-size: 20px;
+    }
+    .profiles p{
+        font-size: 20px;
+        padding: 10px;
+        
+    }
+
 }

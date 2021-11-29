@@ -1,8 +1,7 @@
 import React from 'react'
 import './App.css';
 import Navbar from './Components/Navbar';
-
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import Banner from './Components/Banner ';
 import Footer from './Components/Footer';
 import SiteList from './Components/SiteList';
@@ -24,12 +23,14 @@ function App() {
       <SiteList/>
       <Footer/>
       <>
-        {/* <Router>
+        <Router>
           <Navbar/>
           <Switch>
-            <Route path="/" exact/>
+            <Route path="/" exact  >
+               <Link ></Link>
+            </Route>
           </Switch>
-        </Router> */}
+        </Router>
       </>
     </div>
   );

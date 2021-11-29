@@ -1,7 +1,12 @@
 #construction{
     background-color: #D0E3FA;
+    margin: 4%;
 }
-
+#construction h2{
+    font-size: 60px;
+    text-align: right;
+    margin: 2%
+}
 #construction .spaces {
    display: flex;
    margin: 30px;
@@ -33,4 +38,25 @@
 #construction .spaces .inner .top .bigg{
     width: 60%;
 
+}
+@media (max-width:1024px){
+    #construction{
+        margin: 0%;
+    }
+    #construction h2{
+        font-size: 40px;
+    }
+}
+@media (max-width:414px){
+    
+#construction .spaces {
+    margin: 0px;
+ }
+    #construction .spaces .side{
+        display: none;
+    }
+    #construction h2{
+        text-align: center;
+        margin: 10% 0;
+    }
 }

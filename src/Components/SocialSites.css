@@ -1,7 +1,8 @@
 .social{padding: 20px;}
+
 .social .insta{
     overflow: hidden;
-    position: relative;
+    position: relative;margin: 20px;
 }
 
 .social .insta .insta-img{
@@ -16,7 +17,6 @@
     background-color: #000000;
     opacity: .5;
     height: 100%;
-    /* background-color: rgba(21, 24, 21, .4); */
 }
 .social .insta .item {
     z-index: 10;

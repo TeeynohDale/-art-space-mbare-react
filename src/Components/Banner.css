@@ -7,23 +7,24 @@
     transform: rotate(-90deg);
     align-items: center;
     justify-content: center;
+    margin: -20%;
 }
 .banner .vert .line{
-    border-bottom: 1px solid #FFFFFF;
-    width: 20vh;
+    border-bottom: 5px solid #FFFFFF;
+    width: 30vh;
 }
 #banner .vert h2{
     color: #FFFFFF;
-    font-family: panton;
-    font-size: 35px;
-    font-weight: semi-bold;
+    font-size: 80px;
+    font-family: 'pantonr';
+    padding: 80px;
 
 }
 .banner .center{
     z-index: 3;
     position: absolute;
-    left: 20%;
-    top: 5%;
+    left: 14%;
+    top: 6%;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -48,7 +49,7 @@
 
 } 
 .banner .center .banner-pic{
-    width: 60%;
+    width: 62%;
 }
 
 #banner .paint{
@@ -57,6 +58,7 @@
     align-items: center;
 }
 #banner .paint .inner{
+    width: 60%;
     color: #FFFFFF;
     height: 100vh;
     background-color: #136EDD;
@@ -65,23 +67,174 @@
     justify-content: center;
 }
 #banner .paint .profiles h2{
-    font-size: 60px;
+    font-size: 70px;
 }
 #banner .paint .profiles{
-    width: 100%;
+    width: 75%;
+    margin: 0 40px;
 }
 #banner .paint .profiles p{
-    width: 60%;
+    width: 90%;
+    margin: 55px 0;
+    text-align: left;
+    font-size: 40px;
 }
 #banner .paint .profiles button {
     border: #FFFFFF 2px solid;
-    color: #000000;
+    color: #FFFFFF;
     background-color: transparent;
-    font-size: 30px;
+    font-size: 25px;
     padding: 10px;
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    margin:40px 0;
+}
+
+@media (max-width:1200px){
+    #banner .vert h2{
+        font-size: 70px;
+     }
+    .banner .center{
+        top: 10%;
+    }
+    .banner .center .logos{
+        margin-top: 30px;
+    
+    } 
+    .banner .center .logos .logo{
+        width: 20%;
+    
+    } 
+    .banner .center .banner-pic{
+        width: 55%;
+    }
+    
+    #banner .paint{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #banner .paint .inner{
+        width: 60%;
+        color: #FFFFFF;
+        height: 100vh;
+        background-color: #136EDD;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #banner .paint .profiles h2{
+        font-size: 70px;
+    }
+}
+@media (max-width:1024px){
+   
+    .banner .vert{
+        opacity: 0;
+    }
+    .banner .center{
+        left: 7%;
+        top: 7%;
+    }
+    .banner .center .logos .logo{
+        width: 20%;
+    } 
+    .banner .center .banner-pic{
+        width: 62%;
+    }
+    #banner .paint .inner{
+        height: 60vh;
+        display: flex;
+    }
+    #banner .paint .profiles h2{
+        font-size: 50px;
+    }
+    #banner .paint .profiles{
+        width: 75%;
+    }
+    #banner .paint .profiles p{
+        font-size: 35px;
+    }
+}
+@media (max-width:768px){
+    
+    .banner .vert{
+        display: none;
+    }
+    .banner .center{
+        position:relative;
+        left: 2%;
+        top: 0%;
+    }
+    .banner .center .logos .logo{
+        margin: 10px;
+    }
+    .banner .center .logos .logo{
+        width: 20%;
+    } 
+    .banner .center .banner-pic{
+        width: 100%;
+    }
+    
+    #banner .paint .inner{
+        width: 100%;
+        color: #FFFFFF;
+        height: 70vh;
+    }
+    #banner .paint .profiles h2{
+        font-size: 45px;
+    }
+    #banner .paint .profiles{
+        width: 100%;
+        margin: 0 20px;
+    }
+    #banner .paint .profiles p{
+        width: 100%;
+        margin: 55px 0;
+        text-align: center;
+        font-size: 30px;
+    }
+    #banner .paint .profiles button {
+        font-size: 25px;
+        width: 90%;
+    }
+}
+
+@media (max-width:414px){
+ 
+    .banner .center{
+        top: 6%;
+        align-items: center;
+    }
+
+    .banner .center .logos .logo{
+        width: 30%;
+    
+    } 
+    .banner .center .banner-pic{
+        width: 90%;
+    }
+
+    #banner .paint{
+        flex-direction: column;
+    }
+    
+    #banner .paint .inner{
+        width: 100%;
+        color: #FFFFFF;
+        height: auto;
+        background-color: #136EDD;
+    }
+    #banner .paint .profiles h2{
+        padding-top: 40px;
+    }
+    #banner .paint .profiles p{
+        width: 100%;
+        margin: 30px 0;
+    }
+    #banner .paint .profiles button {
+        font-size: 20px;
+    }
 }
