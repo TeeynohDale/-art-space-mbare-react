@@ -1,7 +1,6 @@
 import React from 'react'
 import './App.css';
 import Navbar from './Components/Navbar';
-import { BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 import Banner from './Components/Banner ';
 import Footer from './Components/Footer';
 import SiteList from './Components/SiteList';
@@ -14,6 +13,7 @@ import AboutMbare from './Components/AboutMbare';
 function App() {
   return (
     <div className="App">
+      <Navbar/>
       <Banner />
       <AboutMbare/>
       <ArtLovers/>
@@ -22,16 +22,7 @@ function App() {
       <ChildMuseum/>
       <SiteList/>
       <Footer/>
-      <>
-        <Router>
-          <Navbar/>
-          <Switch>
-            <Route path="/" exact  >
-               <Link ></Link>
-            </Route>
-          </Switch>
-        </Router>
-      </>
+
     </div>
   );
 }

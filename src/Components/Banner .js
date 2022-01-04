@@ -1,7 +1,6 @@
 import React from 'react'
 import './Banner.css';
 import PartnerText from './PartnerText';
-// import {Button} from './Button';
  
  const Banner = () => {
      return (

@@ -3,7 +3,7 @@ import SocialSites from './SocialSites'
 
 const SiteList =() =>{
     return (
-        <div className="social">
+        <div className="social" id='social'>
             <div className="row">
                 <SocialSites 
                     owner="kitchen_and_dining" 

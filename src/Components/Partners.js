@@ -26,7 +26,7 @@ function Partners() {
                     />
                 </div>
                 <div className="milly">
-                    <img src="./img/Group 12.png" />
+                    <img src="./img/Group 12.png" alt=''/>
                     <button>Uncommon.org</button>
                 </div>
                 <PartnerText

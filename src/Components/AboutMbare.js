@@ -1,15 +1,15 @@
-import React from 'react'
-import PartnerText from './PartnerText'
-import './AboutMbare.css'
+import React from 'react';
+import PartnerText from './PartnerText';
+import './AboutMbare.css';
 
 function AboutMbare() {
     return (
-        <section className="about-mbare" id="about-mbare">
+        <section className="about-mbare" id="about-mbare" >
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <div className="matapi">
-                            <img src="./img/Group 6.png"  alt="image of matapi flats"/>
+                        <div className="matapi" id='matapi'> 
+                            <img src="./img/Group 6.png"  alt="matapi flats"/>
                             < button className="btns">View Matapi Flats</button>
                         </div>
                     </div>

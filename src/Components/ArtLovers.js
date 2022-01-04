@@ -21,7 +21,7 @@ const ArtLovers =()=> {
                        />
                    </div>
                    <div className="col-md-6">
-                       <img src="./img/Group 3.png" className="khama"/>
+                       <img src="./img/Group 3.png" className="khama" alt=''/>
                    </div>
                </div>
            </div>
